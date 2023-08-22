@@ -3,3 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.black-green {
+  color: #112211;
+}
+
+.salmon {
+  color: #ff8682;
+}
+
+.mint {
+  color: #8dd3bb;
+}
