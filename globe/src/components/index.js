@@ -19,6 +19,8 @@ import ProfileMainContent from "./ProfileMainContent";
 import Account from "./Account";
 import History from "./History";
 import PaymentMethods from "./PaymentMethods";
+import PaymentCard from "./PaymentCard";
+import AddNewCard from "./AddNewCard";
 
 export {
   Hero,
@@ -42,4 +44,6 @@ export {
   Account,
   PaymentMethods,
   History,
+  PaymentCard,
+  AddNewCard,
 };

@@ -3,13 +3,14 @@ import {
   ProfileMainContent,
   SignedInNavbar,
 } from "../components";
+import styles from "../styles";
 
 const UserProfile = () => {
   return (
     <>
       <SignedInNavbar />
       <div className="flex justify-center">
-        <div className="flex flex-col">
+        <div className={`${styles.boxWidth}`}>
           <ProfileHeader />
           <ProfileMainContent />
         </div>

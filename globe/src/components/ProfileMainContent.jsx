@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { ProfileTabs, Account } from "../components";
+import { ProfileTabs, Account, History, PaymentMethods } from "../components";
 
 const ProfileMainContent = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -14,9 +14,9 @@ const ProfileMainContent = () => {
       case 1:
         return <Account />;
       case 2:
-        return <p>This is the content for Tab 2.</p>;
+        return <History />;
       case 3:
-        return <p>This is the content for Tab 3.</p>;
+        return <PaymentMethods />;
       default:
         return null;
     }

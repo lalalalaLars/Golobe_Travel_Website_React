@@ -76,7 +76,7 @@ const Root = () => {
         </nav>
       )}
 
-      <div>
+      <div className="bg-[#FAFBFC]">
         <Outlet />
       </div>
 

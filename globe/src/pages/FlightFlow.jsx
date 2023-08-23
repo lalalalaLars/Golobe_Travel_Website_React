@@ -1,5 +1,12 @@
+import { SignedInNavbar } from "../components";
+
 const FlightFlow = () => {
-  return <div></div>;
+  return (
+    <>
+      <SignedInNavbar />
+      <div></div>
+    </>
+  );
 };
 
 export default FlightFlow;

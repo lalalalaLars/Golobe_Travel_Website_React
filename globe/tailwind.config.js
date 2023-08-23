@@ -7,6 +7,11 @@ export default {
         libre: ['"Libre Franklin"'],
         montserrat: ['"Montserrat"'],
       },
+      colors: {
+        mint: "#8dd3bb",
+        salmon: "#ff8682",
+        blackgreen: "#112211",
+      },
     },
   },
   plugins: [],

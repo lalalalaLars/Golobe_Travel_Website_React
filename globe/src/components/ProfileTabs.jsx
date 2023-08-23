@@ -4,8 +4,8 @@ import { Divider } from "@mui/material";
 const ProfileTabs = ({ activeTab, onTabChange }) => {
   return (
     <>
-      <div className="shadow-md p-5 w-[1232px] mb-10 rounded-[12px]">
-        <div className="flex justify-between w-[1232px]">
+      <div className="bg-white shadow-md p-5 mb-10 rounded-[12px]">
+        <div className="flex justify-between lg:text-[16px] text-[14px] ">
           <div className="flex justify-start w-[100%]">
             <button
               className={`py-2 px-4 ${
@@ -31,6 +31,7 @@ const ProfileTabs = ({ activeTab, onTabChange }) => {
               History
             </button>
           </div>
+          <Divider orientation="vertical" flexItem />
           <div className="flex justify-start w-[100%]">
             <button
               className={`py-2 px-4 ${

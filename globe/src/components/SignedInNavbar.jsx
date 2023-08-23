@@ -9,14 +9,14 @@ const SignedInNavbar = () => {
   const currentUser = useSelector((state) => state.user.currentUser);
 
   return (
-    <nav className="flex items-center w-full py-5 drop-shadow-lg  justify-center fixed z-10 bg-white">
-      <div className="flex w-[1232px] justify-between">
+    <nav className="lg:flex hidden items-center lg:w-full py-5 drop-shadow-lg  justify-center fixed z-10 bg-white">
+      <div className="flex lg:w-[1232px] justify-between">
         <div className="flex flex-row items-center gap-x-8">
           <div className="flex gap-x-1">
             <img className="w-5" src={airplane_black} alt="airplane icon" />
             <Link
               className="font-montserrat font-medium text-[14px] "
-              to="/flightsflow"
+              to="/findflight"
             >
               Find Flights
             </Link>
@@ -25,7 +25,7 @@ const SignedInNavbar = () => {
             <img className="w-5" src={bed_black} alt="bed icon" />
             <Link
               className="font-montserrat font-medium text-[14px] "
-              to="/hotelflow"
+              to="/findstay"
             >
               Find Stays
             </Link>
@@ -75,14 +75,14 @@ const SignedInNavbar = () => {
               <CustomButton style={"w-[104px] h-[48px] "}>
                 {"Login"}
               </CustomButton>
-              <CustomButton
-                style={
-                  " w-[104px] h-[48px] text-white bg-[#112211] rounded-[8px] "
-                }
-              >
-                {"Sign up"}
-              </CustomButton>
             </Link>
+            <CustomButton
+              style={
+                " w-[104px] h-[48px] text-white bg-[#112211] rounded-[8px] "
+              }
+            >
+              {"Sign up"}
+            </CustomButton>
           </div>
         )}
       </div>

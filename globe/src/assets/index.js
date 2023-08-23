@@ -37,6 +37,9 @@ import profile_pic1 from "./profile_pic1.jpg";
 import profile_pic2 from "./profile_pic2.jpg";
 import edit_icon from "./edit_icon.svg";
 import add_icon from "./add_icon.svg";
+import visa from "./visa.svg";
+import bin from "./bin.svg";
+import mint_plus from "./mint_plus.svg";
 
 export {
   airplane,
@@ -78,4 +81,7 @@ export {
   profile_pic2,
   edit_icon,
   add_icon,
+  visa,
+  bin,
+  mint_plus,
 };

@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import styles from "../styles";
 
 const ProfileHeader = () => {
   const currentUser = useSelector((state) => state.user.currentUser);
@@ -8,14 +9,15 @@ const ProfileHeader = () => {
       {currentUser ? (
         <div className="flex flex-col items-center justify-center mb-20 mt-[120px]">
           <img
-            className="w-[1232px] h-[350px] object-cover rounded-[12px] relative"
+            className={`lg:h-[350px] lg:object-cover rounded-[12px] relative ${styles.boxWidth} `}
             src={currentUser.cover}
-            alt="profile cover"
+            alt={`${currentUser.name}'s cover`}
           />
+
           <img
             className="absolute rounded-[100px] w-[140px] h-[140px] top-[410px] object-cover border-[3px] border-[salmon] "
             src={currentUser.profilePicture}
-            alt="profile picture"
+            alt={`${currentUser.name}'s profile picture`}
           />
           <div className="flex flex-col items-center pt-[95px]">
             <h3 className="font-montserrat font-semibold black-green text-[20px] ">
