@@ -1,10 +1,11 @@
-import { SignedInNavbar } from "../components";
+import { Cta, SignedInNavbar } from "../components";
 
 const FlightFlow = () => {
   return (
     <>
       <SignedInNavbar />
       <div></div>
+      <Cta />
     </>
   );
 };

@@ -21,8 +21,21 @@ import History from "./History";
 import PaymentMethods from "./PaymentMethods";
 import PaymentCard from "./PaymentCard";
 import AddNewCard from "./AddNewCard";
+import HotelSearchForm from "./HotelSearchForm";
+import HotelFilter from "./HotelFilter";
+import CollapseCard from "./CollapseCard";
+import HotelCardList from "./HotelCardList";
+import HotelCard from "./HotelCard";
+import PriceSlider from "./PriceSlider";
+import HeroHotel from "./HeroHotel";
 
 export {
+  HeroHotel,
+  PriceSlider,
+  HotelCard,
+  HotelCardList,
+  CollapseCard,
+  HotelFilter,
   Hero,
   OptionsForm,
   PlanPerfectTrip,
@@ -46,4 +59,5 @@ export {
   History,
   PaymentCard,
   AddNewCard,
+  HotelSearchForm,
 };

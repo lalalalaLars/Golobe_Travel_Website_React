@@ -40,8 +40,14 @@ import add_icon from "./add_icon.svg";
 import visa from "./visa.svg";
 import bin from "./bin.svg";
 import mint_plus from "./mint_plus.svg";
+import hotel_3 from "./hotel_3.jpg";
+import hotel_4 from "./hotel_4.jpg";
+import hotel_hero from "./hotel_hero.jpg";
 
 export {
+  hotel_hero,
+  hotel_3,
+  hotel_4,
   airplane,
   bed,
   logo,

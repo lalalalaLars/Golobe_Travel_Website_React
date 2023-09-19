@@ -1,4 +1,5 @@
 import {
+  Cta,
   ProfileHeader,
   ProfileMainContent,
   SignedInNavbar,
@@ -15,6 +16,7 @@ const UserProfile = () => {
           <ProfileMainContent />
         </div>
       </div>
+      <Cta />
     </>
   );
 };

@@ -9,7 +9,7 @@ const SignedInNavbar = () => {
   const currentUser = useSelector((state) => state.user.currentUser);
 
   return (
-    <nav className="lg:flex hidden items-center lg:w-full py-5 drop-shadow-lg  justify-center fixed z-10 bg-white">
+    <nav className="lg:flex hidden lg:w-full py-5 drop-shadow-lg top-0 justify-center fixed z-10 bg-white">
       <div className="flex lg:w-[1232px] justify-between">
         <div className="flex flex-row items-center gap-x-8">
           <div className="flex gap-x-1">

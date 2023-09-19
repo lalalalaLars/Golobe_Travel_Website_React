@@ -8,7 +8,13 @@ import {
   useLocation,
 } from "react-router-dom";
 
-import { FlightFlow, HotelFlow, LandingPage, Login } from "./pages";
+import {
+  FlightFlow,
+  HotelListing,
+  HotelSearch,
+  LandingPage,
+  Login,
+} from "./pages";
 import {
   logo,
   airplane,
@@ -27,9 +33,10 @@ function App() {
       <Route path="/" element={<Root />}>
         <Route index element={<LandingPage />} />
         <Route path="/findflight" element={<FlightFlow />} />
-        <Route path="/findstay" element={<HotelFlow />} />
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<UserProfile />} />
+        <Route path="/hotelsearch" element={<HotelSearch />} />
+        <Route path="/hotellisting" element={<HotelListing />} />
       </Route>
     )
   );
@@ -81,7 +88,7 @@ const Root = () => {
       </div>
 
       {!isLoginPage && (
-        <footer className="flex relative h-[422px] bg-[#8DD3BB] w-full items-end justify-around pb-40">
+        <footer className="hidden relative h-[422px] bg-[#8DD3BB] w-full items-end justify-around pb-40">
           <div className="flex flex-col  lg:w-[1232px]">
             <div>
               <img src={footer_logo} alt="Golobe logo" />
