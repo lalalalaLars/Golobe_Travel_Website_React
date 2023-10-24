@@ -3,9 +3,9 @@ import styles from "../styles";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col items-center justify-center">
+    <section className="flex flex-col items-center">
       <div
-        className={`flex flex-col items-left lg:pb-40 absolute z-10 ${styles.boxWidth}`}
+        className={`flex flex-col items-left  absolute z-10 pt-40 ${styles.boxWidth}`}
       >
         <h2 className=" text-white text-[20px] lg:text-[45px] font-libre font-medium ">
           Make your travel <br /> whishlist, we’ll do <br /> the rest
@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
       <div className="w-full h-[735px]">
         <img
-          className="brightness-75 object-cover"
+          className="w-full brightness-75  object-cover"
           src={hotel_hero}
           alt="Hero image"
         />

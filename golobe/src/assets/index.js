@@ -43,8 +43,15 @@ import mint_plus from "./mint_plus.svg";
 import hotel_3 from "./hotel_3.jpg";
 import hotel_4 from "./hotel_4.jpg";
 import hotel_hero from "./hotel_hero.jpg";
-
+import paris_2 from "./paris.jpg";
+import melbourne from "./melbourne.jpg";
+import london_2 from "./london.jpg";
+import columbia from "./columbia.jpg";
 export {
+  columbia,
+  melbourne,
+  paris_2,
+  london_2,
   hotel_hero,
   hotel_3,
   hotel_4,

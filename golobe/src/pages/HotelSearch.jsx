@@ -1,4 +1,4 @@
-import { SignedInNavbar, HeroHotel, HotelSearchForm } from "../components";
+import { SignedInNavbar, HeroHotel } from "../components";
 import styles from "../styles";
 
 const HotelSearch = () => {
@@ -8,9 +8,6 @@ const HotelSearch = () => {
       <div className={`flex flex-col ${styles.flexCenter}`}>
         <div className="flex">
           <HeroHotel />
-        </div>
-        <div className="flex">
-          <HotelSearchForm />
         </div>
       </div>
     </div>
